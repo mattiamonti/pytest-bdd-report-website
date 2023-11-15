@@ -5,7 +5,7 @@ import feature3 from "../assets/images/soluzione_scenari_ignorati.png";
 import feature4 from "../assets/images/soluzione_scenari_outline.png";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
-export const Features1 = () => {
+export const Features3 = () => {
   return (
     <section
       className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
@@ -20,27 +20,13 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Embrace Innovation</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
+                Improved navigation
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Pytest-BDD-Report allows you to easily generate reports. In fact, thanks to the integration with Pytest, users can effortlessly run their BDD tests and generate detailed reports in the same command. This feature reduces the time spent on configuration and report generation, enabling users to focus more on their tasks.
+                Navigation is straightforward, as users can leverage the intuitive links in the features index to quickly access desired information. Furthermore, the implementation of filters provides users with the ability to focus on specific test categories or examine only the results relevant to their tasks.
               </p>
-              <ul className="mb-6 text-white">
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Graphs for better comprehension of the test session</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Feature table to analyze and navigate the report</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>All importanto information included</span>
-                </li>
-              </ul>
+
             </div>
           </div>
           <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">

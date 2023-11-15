@@ -4,7 +4,7 @@ import feature5 from "../assets/images/feature5.jpg";
 import feature6 from "../assets/images/feature6.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
-export const Features2 = () => (
+export const Features6 = () => (
   <section className="w-full bg-customDarkBg2 mt-12 sm:mt-20 mb-10 lg:my-20 pt-4">
     <motion.div
       initial={{ opacity: 0 }}
@@ -34,14 +34,11 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="custom-block-subtitle">
-              Get all the information
-            </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Useful and complete informations
+              Gherkin hierarchy
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Each generated report provides a comprehensive overview of the test session, executed features, and scenarios, including details on passed and failed steps. In fact, all information about the session and tests is included, such as durations for each step, scenario, and feature, the quantities of passed, failed, and ignored scenarios for each feature, or the success percentages for each of them.
+              The report maintains a hierarchy among features, scenarios, and steps to adhere to the Gherkin syntax. This approach helps prevent ambiguity and disorder, making it easier to navigate and understand the relationships between different components of BDD tests.
             </p>
 
           </div>
