@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-import feature2 from "../assets/images/soluzione_dettaglio_errore.png";
 import feature3 from "../assets/images/soluzione_scenari_ignorati.png";
 import feature4 from "../assets/images/soluzione_scenari_outline.png";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
@@ -33,7 +32,7 @@ export const Features5 = () => {
             <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
                 <img
-                  src={feature2}
+                  src={feature4}
                   alt="f1"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
@@ -46,22 +45,7 @@ export const Features5 = () => {
                 />
               </div>
             </div>
-            <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
-              <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature3}
-                  alt="f3"
-                  className="rounded-xl  custom-border-gray"
-                />
-              </div>
-              <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature4}
-                  alt="f4"
-                  className="rounded-xl  custom-border-gray"
-                />
-              </div>
-            </div>
+
           </div>
         </div>
       </motion.div>

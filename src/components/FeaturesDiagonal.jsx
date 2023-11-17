@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 import { InvitationModal } from "./InvitationModal";
-import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
+import featuresdiagonal from "../assets/images/logo-color.svg";
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -51,7 +51,7 @@ export const FeaturesDiagonal = () => {
             <img
               src={featuresdiagonal}
               alt="f1"
-              className="rounded-xl  custom-border-gray"
+              className="rounded-xl "
             />
           </div>
         </div>
